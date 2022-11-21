@@ -1,0 +1,243 @@
+.container {
+     position: relative;
+     margin: -12px;
+
+}
+.main{
+position: relative;
+}
+
+.navigation {
+     width: 1370px;
+     height: 90px;
+     position: absolute;
+     background: #A3A4A6;
+}
+
+.sidebar {
+     width: 250px;
+     height: 640px;
+     background: lightblue;
+}
+
+.userlisttext{
+ background-color:  lightblue;
+  border: none;
+  color: black;
+  margin-top:90px;
+  text-align:left;
+  padding: 20px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  width:250px;
+  height:77px;
+}
+
+.userlisttext:hover{
+ background-color:#A3A4A6;
+
+}
+
+.userregistration{
+
+  background-color: lightblue;
+  border: none;
+  color: black;
+  margin-top:0px;
+  padding: 29px 25px;
+  text-align:left;
+   width:200px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.userregistration:hover{
+  background-color: #A3A4A6;
+
+}
+
+.profile {
+     position: absolute;
+     width: 130px;
+     height: 130px;
+     border-radius: 65px;
+     border: 1px solid black;
+     margin-left: 320px;
+     margin-top: -480px;
+     text-decoration: none;
+}
+
+.roundpro {
+     margin-left: 22px;
+     margin-top: 12px;
+
+}
+
+.control {
+     border: 1px solid #B0A8A8;
+     border-radius: 8px;
+     width: 200px;
+     height: 30px;
+     color: #5a4f79;
+     font-family: inherite;
+     font-size: 18px;
+
+}
+
+.firstname {
+     position: absolute;
+     margin-left: 620px;
+     margin-top: -480px;
+
+
+}
+
+.lastname {
+     position: absolute;
+     margin-left: 920px;
+     margin-top: -480px;
+}
+
+.email {
+     position: absolute;
+     margin-left: 320px;
+     margin-top: -280px;
+}
+
+.username {
+     position: absolute;
+     margin-top: -280px;
+     margin-left: 620px;
+}
+
+.password {
+     position: absolute;
+     margin-left: 920px;
+     margin-top: -280px;
+}
+
+.gender {
+     position: absolute;
+     margin-left: 620px;
+     margin-top: -380px;
+
+}
+
+.country {
+     position: absolute;
+     margin-left: 920px;
+     margin-top: -380px;
+
+}
+
+.comfirm_password {
+     position: absolute;
+     margin-left: 320px;
+     margin-top: -180px;
+
+}
+
+.dateofbirth {
+     position: absolute;
+     margin-left: 620px;
+     margin-top: -180px;
+}
+
+.zipcode {
+     position: absolute;
+     margin-left: 920px;
+     margin-top: -180px;
+}
+
+
+
+.submit {
+     position: absolute;
+     margin-left: 900px;
+     margin-top: -100px;
+     font-size: 16px;
+     border: none;
+     width: 90px;
+     height: 35px;
+     border-radius: 10px;
+     background: #56D4D8;
+     color: #606060;
+
+
+}
+
+.cancelsubmit {
+
+     position: absolute;
+     margin-left: 1033px;
+     margin-top: -100px;
+     font-size: 16px;
+     border: none;
+     width: 90px;
+     height: 35px;
+     border-radius: 10px;
+     background: #F06E6E;
+     color: #606060;
+}
+
+
+.tableclass {
+     position: absolute;
+     margin-left: 250px;
+     margin-top: 90px;
+}
+.fa-user{
+     padding-left: 22px;
+     padding-top: 12px;
+     text-decoration: none;
+     display: none;
+     cursor: pointer;
+}
+.image-upload {
+     text-decoration: none;
+     
+}
+.image-upload > input
+{
+    display: none;
+}
+i{
+     text-decoration: none;
+}
+table {
+position:absolute;
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+     margin-top:-200px;
+     margin-left:40px;
+   }
+   
+   td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+   }
+   
+   tr:nth-child(even) {
+     background-color: #dddddd;
+   }
+
+.refresh{
+position:absolute;
+    margin-top:-230px;
+    margin-left:400px;
+}
+
+
+.user-button{
+  background-color: lightblue;
+  border: none;
+  color: black;
+  margin-top:0px;
+  padding: 2px 5px;
+   width:70px;
+  display: inline-block;
+  font-size: 16px;
+}

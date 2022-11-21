@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        type="text/css">
+</head>
+<body>
+     <div class="container">
+          <div class="sidebar">
+              <div class="userregistrationbox">
+                  <div class="userlist ">
+                      <div class="userlisttext"  >User Edit Section </div>
+                  </div>
+              </div>
+              
+          </div>
+      
+          <form action="" id="form" >
+              <div class="profile">
+                  <label for="file-input" class="image-upload">
+                     <i class="fa-solid fa-user fa-6x"></i>
+                     <input type="file" id="file-input" accept="image/png , image/jpg" class="form-control" placeholder="Add Profile">
+                  </label>
+              </div>
+              <div class="firstname">
+                  <input class="control" type="text" id="fname" name="fname" placeholder="First Name" >
+              </div>
+              <div class="lastname">
+                  <input class="control" type="text" id="lname" name="lname" placeholder="Last Name" >
+              </div>
+      
+              <div class="gender">
+                  <select class="control" id="gender"  name="gender">
+                      <option value="" selected disabled >Gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                  </select>
+              </div>
+              <div class="country">
+                  <select class="control" name="city" id="city">
+                      <option value="" selected disabled >Country</option>
+                      <option>India</option>
+                      <option>America</option>
+                      <option>Japan</option>
+                  </select>
+              </div>
+              <div class="email">
+                  <input class="control" type="email" id="Email" name="Email" placeholder="Email" >
+              </div>
+              <div class="username">
+                  <input class="control" type="text" id="username" name="username" placeholder="Username" >
+              </div>
+      
+              <div class="password">
+                  <input class="control" type="password" id="password" placeholder="Password" >
+              </div>
+      
+              <div class="comfirm_password">
+                  <input class="control" type="password" id="re-password" placeholder="Confirm Password" >
+              </div>
+      
+              <div class="dateofbirth">
+                  <input class="control" type="date" id="dateofbirth" name="dateofbirth" placeholder="DOB" >
+              </div>
+              <div class="zipcode">
+                  <input class="control" type="number" id="zipcode" name="zipcode" placeholder="Zipcode" >
+              </div>
+              <input class="submit" type="button" value="Submit" onclick="updateUser()" >
+              <input class="cancelsubmit" type="reset" value="Cancel">
+          </form>
+        
+  
+      </div>
+</body>
+</html>

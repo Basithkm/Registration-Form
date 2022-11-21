@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Userlist</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<div class="container">
+    <div class="navigation"></div>
+    <div class="sidebar">
+
+                <button class="userlisttext"> User List </button>
+
+        <a href="user_registration.html">
+
+                    <div class="userregistration">User Registration </div>
+
+        </a>
+        <div class="tableclass">
+            <div class="refresh"> <button type="button" onclick="showData()" class="user-button">Refresh</button></div>
+
+            <table class="table" id="table">
+                <thead class="thead-light" >
+                    <tr>
+                        <th scope="col" id="id">Id</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">City</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Password</th>
+                        <th scope="col">Date Of birth</th>  
+                        <th scope="col">Zip Code</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                        
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
